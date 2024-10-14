@@ -7,6 +7,11 @@ We used the 100DOH as the train&val set.
 ## Quickly start
 If you want to use the model we trianed directly, please follow the steps:
 
+### 1.download the code
+```
+git clone https://github.com/sunnygit2005/YOLOv11_4_hands
+```
+
 ### 1.create the virtual env
 We suggest to use the python=3.9:
 ```
