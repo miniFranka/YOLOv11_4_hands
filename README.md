@@ -17,5 +17,6 @@ We suggest to use the python=3.9
 ### try the detect task
 The model was stored in hand_model/weights/best.pt, and you can do a test by following this:
 `yolo predict model=hand_model/weights/best.pt source=test_photos/test_hand1.jpg`
+
 Of course you can do other task by reading the director docs of the original work of YOLOv11
 @https://github.com/ultralytics/ultralytics
