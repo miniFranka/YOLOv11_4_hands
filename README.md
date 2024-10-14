@@ -7,14 +7,14 @@ We used the 100DOH as the train&val set.
 ## Quickly start
 If you want to use the model we trianed directly, please follow the steps:
 
-### create the virtual env
+### 1.create the virtual env
 We suggest to use the python=3.9
 `conda create -n yolov11 python=3.9`
 
-### install the packages
+### 2.install the packages
 `pip install -r requirements.txt`
 
-### try the detect task
+### 3.try the detect task
 The model was stored in hand_model/weights/best.pt, and you can do a test by following this:
 `yolo predict model=hand_model/weights/best.pt source=test_photos/test_hand1.jpg`
 
